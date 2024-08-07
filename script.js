@@ -26,7 +26,7 @@ function mostrarImagenes() {
         const divImagen = document.createElement('div');
         divImagen.classList.add('imagen');   //con esta funcion recorremos el espacion del div 'imagenes' y le hacemos un appendChild con nuevas etiquetas que nos ayudaran a ubicar la imagen que al clickear nos llevara a sus detalles y el boton de eliminar
         divImagen.innerHTML = `
-            <a href="${imagen.url}">
+            <a href="${urlInput.value}" target="_blank">
             <img src="${imagen.url}" alt="${imagen.titulo.value}">
             </a>
             <p>${imagen.titulo.value}</p>
