@@ -1,0 +1,10 @@
+#inputURLImagen, #titleImagen{
+    width: 35vh;
+    align-content: center;  
+}
+
+#imagenes{
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+}
